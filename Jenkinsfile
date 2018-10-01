@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh ' python y_statistic.py --q "Natural"'
+        echo 'running python script'
       }
     }
   }
