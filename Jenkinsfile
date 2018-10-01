@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh ' python3 y_statistic.py --q "Natural"'
+        sh ' python y_statistic.py --q "Natural"'
       }
     }
   }
